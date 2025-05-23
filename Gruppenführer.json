@@ -1,0 +1,720 @@
+[
+  {
+    "id": 1,
+    "questionText": "Welche Aussagen sind richtig?",
+    "options": [
+      { "label": "a", "text": "Die Feuerwehr ist eine gemeinnützige, der Nächstenhilfe dienende Einrichtung" },
+      { "label": "b", "text": "Die Feuerwehr ist ein gemeinnütziger Verein" },
+      { "label": "c", "text": "Die Feuerwehr ist ein Verein, ohne eigene Rechtspersönlichkeit" },
+      { "label": "d", "text": "Die Feuerwehr ist eine Einrichtung der Gemeinde" }
+    ],
+    "correctAnswers": ["a", "d"]
+  },
+  {
+    "id": 2,
+    "questionText": "Welche Grundrechte können zur Erfüllung der Aufgaben der Feuerwehr nach § 2 des Feuerwehrgesetzes (FwG) Baden-Württemberg eingeschränkt werden?",
+    "options": [
+      { "label": "a", "text": "Freiheit der Person" },
+      { "label": "b", "text": "Meinungsfreiheit / Pressefreiheit" },
+      { "label": "c", "text": "Gleichheit vor dem Gesetz" },
+      { "label": "d", "text": "Versammlungsfreiheit" },
+      { "label": "e", "text": "Unverletzlichkeit der Wohnung" },
+      { "label": "f", "text": "Recht auf Eigentum" }
+    ],
+    "correctAnswers": ["a", "e", "f"]
+  },
+  {
+    "id": 3,
+    "questionText": "Welche Aufgabe hat der Feuerwehrausschuss (Abteilungsausschuss) entsprechend dem Feuerwehrgesetz (FwG) Baden-Württemberg und in welchen Zeitabständen ist er zu wählen?",
+    "options": [
+      { "label": "a", "text": "Jahresabschlussübung vorbereiten" },
+      { "label": "b", "text": "Beratung des Kommandanten" },
+      { "label": "c", "text": "Beschaffung von Feuerwehrfahrzeugen" },
+      { "label": "d", "text": "Feuerwehrangehörige bei fortgesetzter Nachlässigkeit im Dienst entlassen" },
+      { "label": "e", "text": "Kommandant unterstützen" },
+      { "label": "f", "text": "Feuerwehrsatzung erstellen" },
+      { "label": "g", "text": "Drei Jahre" },
+      { "label": "h", "text": "Fünf Jahre" }
+    ],
+    "correctAnswers": ["b", "e", "h"]
+  },
+  {
+    "id": 4,
+    "questionText": "Welche Aufgaben obliegen dem Land nach dem Feuerwehrgesetz Baden-Württemberg?",
+    "options": [
+      { "label": "a", "text": "Förderung der Aus- und Fortbildung" },
+      { "label": "b", "text": "Errichtung und Unterhaltung einer Landesfeuerwehrschule" },
+      { "label": "c", "text": "Lohnfortzahlung an Arbeitnehmer bei Arbeitsunfähigkeit in Folge eines Feuerwehreinsatzes" },
+      { "label": "d", "text": "Angehörige der Feuerwehr gegen Haftpflicht versichern" },
+      { "label": "e", "text": "Gemeinden bei der Beschaffung von Ausrüstung unterstützen" },
+      { "label": "f", "text": "Förderung der Normung und Forschung" },
+      { "label": "g", "text": "Für jeden Landkreis mindestens einen Kreisbrandmeister nach Anhörung der Kommandanten bestellen" }
+    ],
+    "correctAnswers": ["a", "b", "e", "f"]
+  },
+  {
+    "id": 5,
+    "questionText": "Welches sind die Dienstpflichten der ehrenamtlich tätigen Angehörigen der Gemeindefeuerwehr?",
+    "options": [
+      { "label": "a", "text": "Am Dienst einschließlich der Aus- und Fortbildung regelmäßig und pünktlich teilnehmen" },
+      { "label": "b", "text": "Den dienstlichen Weisungen der Vorgesetzten nachkommen" },
+      { "label": "c", "text": "Sich im Dienst vorbildlich und kameradschaftlich verhalten" },
+      { "label": "d", "text": "Bei Alarm unverzüglich zur Einsatzstelle fahren" },
+      { "label": "e", "text": "Bei Alarm sich unverzüglich am Alarmplatz (Feuerwehrhaus) einzufinden" },
+      { "label": "f", "text": "Die technische Einsatzleitung übernehmen" },
+      { "label": "g", "text": "Hydrantenplan erstellen" }
+    ],
+    "correctAnswers": ["a", "b", "c", "e"]
+  },
+  {
+    "id": 6,
+    "questionText": "Welche der Aussagen ist richtig?",
+    "options": [
+      { "label": "a", "text": "Feuerwehrangehörige sind bei der der Alarmfahrt mit dem eigenen Pkw zum Feuerwehrgerätehaus berechtigt, die §§ 35 und 38 der StVO in Anspruch zu nehmen, sie müssen nur dauernd hupen" },
+      { "label": "b", "text": "Feuerwehrangehörige müssen bei der Fahrt mit ihrem Pkw zum Feuerwehrhaus, auch bei einem Alarm, die allgemeinen Regeln der StVO einhalten" },
+      { "label": "c", "text": "Ein Anwesenheitsnachweis beim Einsatz- und Übungsdienst gehört zu einem geregelten Dienstbetrieb der Feuerwehr" },
+      { "label": "d", "text": "Die Gemeindefeuerwehr muss jährlich einen Dienstplan erstellen, der den Umfang und die Inhalte des Ausbildungs- und Übungsdienstes verbindlich festlegt" }
+    ],
+    "correctAnswers": ["b", "c", "d"]
+  },
+  {
+    "id": 7,
+    "questionText": "Wer entscheidet darüber, ob eine Katastrophe vorliegt?",
+    "options": [
+      { "label": "a", "text": "Der Feuerwehr-Einsatzleiter (Technischer Einsatzleiter)" },
+      { "label": "b", "text": "Die Ortspolizeibehörde" },
+      { "label": "c", "text": "Die Katastrophenschutzbehörde" },
+      { "label": "d", "text": "Das Lagezentrum im Regierungspräsidium" }
+    ],
+    "correctAnswers": ["c"]
+  },
+  {
+    "id": 8,
+    "questionText": "Welches sind die Katastrophenschutzbehörden nach dem Landeskatastrophenschutzgesetz?",
+    "options": [
+      { "label": "a", "text": "Die Berufsfeuerwehr eine Gemeinde" },
+      { "label": "b", "text": "Landratsämter und Bürgermeister der Stadtkreise" },
+      { "label": "c", "text": "Die Landesregierung" },
+      { "label": "d", "text": "Die Regierungspräsidien" },
+      { "label": "e", "text": "Das Innenministerium" }
+    ],
+    "correctAnswers": ["b", "d", "e"]
+  },
+  {
+    "id": 9,
+    "questionText": "Was versteht man unter dem Begriff „untere Explosionsgrenze“?",
+    "options": [
+      { "label": "a", "text": "Die Temperatur, bei der eine Explosion frühestens möglich ist" },
+      { "label": "b", "text": "Die Explosion eines Gas-Luft-Gemisches unter Erdgleiche" },
+      { "label": "c", "text": "Der niedrigste Sauerstoffgehalt (%) in der Luft, bei dem eine Explosion möglich ist" },
+      { "label": "d", "text": "Die niedrigste Konzentration des brennbaren Stoffes im Gemisch von Gasen, Dämpfen, Nebeln und/oder Stäuben, in dem sich nach dem Zünden ein Brennen gerade nicht mehr selbstständig fortpflanzen kann" }
+    ],
+    "correctAnswers": ["d"]
+  },
+  {
+    "id": 10,
+    "questionText": "Welche der aufgeführten Stoffe gehören zur Brandklasse A?",
+    "options": [
+      { "label": "a", "text": "Acetylen" },
+      { "label": "b", "text": "Aceton" },
+      { "label": "c", "text": "Ammoniak" },
+      { "label": "d", "text": "Autoreifen" },
+      { "label": "e", "text": "Baumwolle" },
+      { "label": "f", "text": "Holz (Hobelspäne)" },
+      { "label": "g", "text": "Bienenwachs" }
+    ],
+    "correctAnswers": ["d", "e", "f"]
+  },
+  {
+    "id": 11,
+    "questionText": "Bei welchem der aufgeführten Löschmittel ist der Stickeffekt als Hauptlöscheffekt zu betrachten?",
+    "options": [
+      { "label": "a", "text": "Wasser als Sprühstrahl" },
+      { "label": "b", "text": "Kohlenstoffdioxid" },
+      { "label": "c", "text": "Pulver für Brandklasse B und C" },
+      { "label": "d", "text": "Pulver für Brandklasse A, B und CO" },
+      { "label": "e", "text": "Luftschaum mit 75facher Verschäumung" }
+    ],
+    "correctAnswers": ["b", "e"]
+  },
+  {
+    "id": 12,
+    "questionText": "Bei welchen Einsätzen ist Wasser als Löschmittel nicht anzuwenden?",
+    "options": [
+      { "label": "a", "text": "Schornsteinbrände" },
+      { "label": "b", "text": "bei Zersetzung von Düngemittel" },
+      { "label": "c", "text": "Metallbrände" },
+      { "label": "d", "text": "Heustockbrände" },
+      { "label": "e", "text": "Schwelbrände in Kellergeschossen" },
+      { "label": "f", "text": "Mineralölbrände" }
+    ],
+    "correctAnswers": ["a", "c", "f"]
+  },
+  {
+    "id": 13,
+    "questionText": "Wodurch ist eine Kraft gekennzeichnet?",
+    "options": [
+      { "label": "a", "text": "Größe der Kraft" },
+      { "label": "b", "text": "Geschwindigkeit der Kraft" },
+      { "label": "c", "text": "Richtung der Kraft" },
+      { "label": "d", "text": "Dauer der Kraftwirkung (Minuten / Sekunden)" },
+      { "label": "e", "text": "Angriffspunkt der Kraft" }
+    ],
+    "correctAnswers": ["a", "c", "e"]
+  },
+  {
+    "id": 14,
+    "questionText": "Welche Höchstlast L kann bei der vorliegenden Seilführung mit einem Mehrzweckzug Z 16 (Zugkraft 16 kN) gehoben werden? (Bild mit Seilführung: Fp1 -> Rolle -> Last -> Rolle -> Fp2, Zug am Z16, der an Fp3 befestigt ist)",
+    "options": [
+      { "label": "a", "text": "L = 1600 kg" },
+      { "label": "b", "text": "L = 3200 kg" },
+      { "label": "c", "text": "L = 4800 kg" },
+      { "label": "d", "text": "L = 6400 kg" }
+    ],
+    "correctAnswers": ["b"]
+  },
+  {
+    "id": 15,
+    "questionText": "Für welchen Fahrbereich (km) oder Betrieb (h) fest eingebauter Aggregate muss der Kraftstoff bei Feuerwehrfahrzeugen mindestens ausreichend sein?",
+    "options": [
+      { "label": "a", "text": "200 km oder 2 h" },
+      { "label": "b", "text": "300 km oder 3 h" },
+      { "label": "c", "text": "300 km oder 4 h" },
+      { "label": "d", "text": "400 km oder 4 h" }
+    ],
+    "correctAnswers": ["c"]
+  },
+  {
+    "id": 16,
+    "questionText": "Welche Feuerwehrpumpen gehören nach Norm zu einem Löschgruppenfahrzeug LF 10?",
+    "options": [
+      { "label": "a", "text": "FPN 10/750" },
+      { "label": "b", "text": "FPN 10/1000" },
+      { "label": "c", "text": "TUP 3-1,5" },
+      { "label": "d", "text": "TP 8/1" }
+    ],
+    "correctAnswers": ["b"]
+  },
+  {
+    "id": 17,
+    "questionText": "Welchen Inhalt muss der eingebaute Löschwasserbehälter bei einem Löschgruppenfahrzeug LF 20 nach Norm mindestens haben?",
+    "options": [
+      { "label": "a", "text": "800 Liter" },
+      { "label": "b", "text": "1200 Liter" },
+      { "label": "c", "text": "1600 Liter" },
+      { "label": "d", "text": "2500 Liter" }
+    ],
+    "correctAnswers": ["c"]
+  },
+  {
+    "id": 18,
+    "questionText": "Wie reagiert ein Gruppenführer auf die Lagemeldung eines Angriffstrupps, wenn dieser meldet, er habe beim Vorgehen zur Brandbekämpfung in einem Raum Fässer mit brennbarer Flüssigkeit gefunden? Der Gruppenführer weist den Angriffstrupp an:",
+    "options": [
+      { "label": "a", "text": "Die Fässer heraus zu tragen" },
+      { "label": "b", "text": "Die Gefahrensymbole zu beschreiben" },
+      { "label": "c", "text": "Den Zustand der Fässer zu beschreiben" },
+      { "label": "d", "text": "Die Fässer zu kühlen" },
+      { "label": "e", "text": "Die Fässer abzulöschen" },
+      { "label": "f", "text": "An den Fässern nicht vorbeigehen" }
+    ],
+    "correctAnswers": ["b", "c", "f"]
+  },
+  {
+    "id": 19,
+    "questionText": "Wann ist an Brandstellen mit gefährlichen Konzentrationen von Kohlenstoffmonoxid CO zu rechnen?",
+    "options": [
+      { "label": "a", "text": "Nach einer Explosion" },
+      { "label": "b", "text": "Bei Bränden in geschlossenen Räumen bei mangelnder Luftzufuhr" },
+      { "label": "c", "text": "Bei Schwelbränden der Brandklasse A" },
+      { "label": "d", "text": "Bei Bränden der Brandklasse C" }
+    ],
+    "correctAnswers": ["b", "c"]
+  },
+  {
+    "id": 20,
+    "questionText": "Welche der aufgeführten Atemgifte wirken durch Reiz- und Ätzwirkung schädigend auf den Menschen?",
+    "options": [
+      { "label": "a", "text": "Kohlenstoffdioxid" },
+      { "label": "b", "text": "Blausäure und Dämpfe von Methylalkohol" },
+      { "label": "c", "text": "Chlor und Säuredämpfe" },
+      { "label": "d", "text": "Nitrose Gase" },
+      { "label": "e", "text": "Stickstoff und Methan" }
+    ],
+    "correctAnswers": ["c", "d"]
+  },
+  {
+    "id": 21,
+    "questionText": "In welchen der farblich gekennzeichneten Druckgasflaschen befinden sich brennbare Gase? In Klammer () ältere Kennzeichnung.",
+    "options": [
+      { "label": "a", "text": "Blaue Flaschen mit zwei weißen Kreisen auf der Flaschenschulter" },
+      { "label": "b", "text": "Kastanienbraune Flasche (gelb)" },
+      { "label": "c", "text": "Grüne Flasche" },
+      { "label": "d", "text": "Rote Flasche" },
+      { "label": "e", "text": "Graue Flasche" },
+      { "label": "f", "text": "Graue Flasche mit roter Gasflaschenschulter" }
+    ],
+    "correctAnswers": ["b", "d", "f"]
+  },
+  {
+    "id": 22,
+    "questionText": "Eine Acetylengasflasche ist längere Zeit der Brandwärme ausgesetzt. Was müssen Sie beachten?",
+    "options": [
+      { "label": "a", "text": "Eine weitere Erwärmung kann zu einem Druckgefäßzerknall führen" },
+      { "label": "b", "text": "Flasche muss aus geschützter Stellung fortlaufend gekühlt werden" },
+      { "label": "c", "text": "Nach dem Abkühlen kann sich die Flasche wieder von selbst erwärmen" },
+      { "label": "d", "text": "Flasche muss mindestens 24 Stunden nach Erreichen der normalen Temperatur an einem sicheren Ort gelagert und kontrolliert, notfalls weiterhin gekühlt werden" },
+      { "label": "e", "text": "Flasche kann nach dem Abkühlen zur weiteren Benutzung verwendet werden" },
+      { "label": "f", "text": "Flasche muss von der Feuerwehr gekennzeichnet und zum Füllwerk gebracht werden" },
+      { "label": "g", "text": "Flasche muss gekennzeichnet, an Füllwerk übergeben und von diesem überprüft werden" }
+    ],
+    "correctAnswers": ["a", "b", "c", "d", "g"]
+  },
+  {
+    "id": 23,
+    "questionText": "Bei welcher Art der Wärmeübertragung wird kein Übertragungsmedium benötigt?",
+    "options": [
+      { "label": "a", "text": "Wärmeströmung" },
+      { "label": "b", "text": "Wärmestrahlung" },
+      { "label": "c", "text": "Wärmeleitung" }
+    ],
+    "correctAnswers": ["b"]
+  },
+  {
+    "id": 24,
+    "questionText": "Welche Treibmittel werden in Feuerlöschern verwendet und welche Arten von tragbaren Feuerlöschern gibt es?",
+    "options": [
+      { "label": "a", "text": "Luft, Helium, Kohlenstoffdioxid" },
+      { "label": "b", "text": "Propan, Butan" },
+      { "label": "c", "text": "Flüssigkeitsbrandlöscher" },
+      { "label": "d", "text": "Aufladelöscher" },
+      { "label": "e", "text": "Dauerdrucklöscher" },
+      { "label": "f", "text": "Gaslöscher" },
+      { "label": "g", "text": "Giftlöscher" },
+      { "label": "h", "text": "Schlaglöscher" },
+      { "label": "i", "text": "Pulverlöscher" }
+    ],
+    "correctAnswers": ["a", "d", "e", "f", "i"]
+  },
+  {
+    "id": 25,
+    "questionText": "Welche Löschmittel werden in tragbaren Feuerlöschern eingesetzt?",
+    "options": [
+      { "label": "a", "text": "Wasser mit Zusätzen" },
+      { "label": "b", "text": "Graugussspäne" },
+      { "label": "c", "text": "D-Löschpulver" },
+      { "label": "d", "text": "Schaumlöschmittel" },
+      { "label": "e", "text": "BC-Löschpulver" },
+      { "label": "f", "text": "ABC-Löschpulver" },
+      { "label": "g", "text": "Kohlenstoffdioxid" },
+      { "label": "h", "text": "Feiner Sand" },
+      { "label": "i", "text": "Schweröl" },
+      { "label": "j", "text": "Wasser" }
+    ],
+    "correctAnswers": ["a", "c", "d", "e", "f", "g", "j"]
+  },
+  {
+    "id": 26,
+    "questionText": "Welche Vorteile hat ein Trinkwasserleitungsnetz, das als Ringleitungssystem ausgelegt ist?",
+    "options": [
+      { "label": "a", "text": "Es bilden sich in den Rohrleitungen weniger Ablagerungen" },
+      { "label": "b", "text": "Kurze Abschaltstrecken bei Rohrbruch" },
+      { "label": "c", "text": "Geringere Bau- und Unterhaltungskosten als bei einem Verästelungssystem" },
+      { "label": "d", "text": "Hydranten fließen von zwei Seiten Wasser zu" }
+    ],
+    "correctAnswers": ["a", "b", "d"]
+  },
+  {
+    "id": 27,
+    "questionText": "Nach welcher Faustformel errechnet sich der Abstand (m) von Verstärkerpumpen?",
+    "options": [
+      { "label": "a", "text": "Abstand = (Ausgangsdruck/Druckverlust) * 100" },
+      { "label": "b", "text": "Abstand (Gesamtförderdruck / Druckverlust) * 100" },
+      { "label": "c", "text": "Abstand = (verfügbarer Druck / Druckverlust) * 100" }
+    ],
+    "correctAnswers": ["c"]
+  },
+  {
+    "id": 28,
+    "questionText": "In welcher maximalen Entfernung von einem Hydranten kann ein Löschfahrzeug aufgestellt werden, ohne dass Gefahr besteht, den notwendigen Pumpeneingangsdruck zu unterschreiten? (Wasserdruck am Standrohr: 5,4 bar, Förderstrom Q = 800 Liter/Minute, Reibungsverlust 1,3 bar / 100 Meter, verfügbare Wassermenge am Standrohr: 1200 Liter / Minute)",
+    "options": [
+      { "label": "a", "text": "250 Meter" },
+      { "label": "b", "text": "300 Meter" },
+      { "label": "c", "text": "320 Meter" }
+    ],
+    "correctAnswers": ["b"]
+  },
+  {
+    "id": 29,
+    "questionText": "Wie viel Wasser (Liter/Minute) liefert ein Unterflurhydrant bei „normalem“ Druckverhältnis im Rohrleitungsnetz?",
+    "options": [
+      { "label": "a", "text": "Nennweite (mm) der Anschlussleitung x 7-10" },
+      { "label": "b", "text": "Nennweite (mm) der Anschlussleitung x 12-15" },
+      { "label": "c", "text": "Nennweite (mm) der Anschlussleitung x 15-17" }
+    ],
+    "correctAnswers": ["a"]
+  },
+  {
+    "id": 30,
+    "questionText": "Welche Aufgaben muss der Wachhabende im Feuersicherheitswachdienst vor Beginn einer Veranstaltung wahrnehmen?",
+    "options": [
+      { "label": "a", "text": "Kontrolle der Rettungswege" },
+      { "label": "b", "text": "Einweisung der Sicherheitsposten" },
+      { "label": "c", "text": "Durchführung ordnungsdienstlicher Tätigkeiten" },
+      { "label": "d", "text": "Überprüfung der Alarmierungsmöglichkeiten" }
+    ],
+    "correctAnswers": ["a", "b", "d"]
+  },
+  {
+    "id": 31,
+    "questionText": "Welcher Baustoffklasse und welcher bauaufsichtlichen Benennung (nach DIN 4102) müssen Dekorationsmaterialien in Versammlungsräumen mindestens entsprechen?",
+    "options": [
+      { "label": "a", "text": "B1" },
+      { "label": "b", "text": "Normal entflammbar" },
+      { "label": "c", "text": "Schwer entflammbar" },
+      { "label": "d", "text": "F 30" }
+    ],
+    "correctAnswers": ["a", "c"]
+  },
+  {
+    "id": 32,
+    "questionText": "Welche der nachfolgenden Bedingungen muss erfüllt sein, damit die Standsicherheit eines Gebäudes gewährleistet ist?",
+    "options": [
+      { "label": "a", "text": "Brandverhütungsschau muss durchgeführt sein" },
+      { "label": "b", "text": "Brandausbreitung in baulichen Anlagen richtig abschätzen" },
+      { "label": "c", "text": "Am Gebäude wirkende Kräfte müssen im Gleichgewicht sein" }
+    ],
+    "correctAnswers": ["c"]
+  },
+  {
+    "id": 33,
+    "questionText": "Welche baulichen Einrichtungen und Geräte können bei Gebäuden als Rettungsweg (Erster und zweiter Rettungsweg) angesehen werden?",
+    "options": [
+      { "label": "a", "text": "Notwendige Treppen" },
+      { "label": "b", "text": "Tragbare Leitern" },
+      { "label": "c", "text": "Fluchthauben" },
+      { "label": "d", "text": "Aufzüge" },
+      { "label": "e", "text": "Drehleitern" }
+    ],
+    "correctAnswers": ["a", "b", "e"]
+  },
+  {
+    "id": 34,
+    "questionText": "Welche bauaufsichtliche Benennung steht für die Feuerwiderstandsklasse F 30-B (nach DIN 4102) eines Bauteils?",
+    "options": [
+      { "label": "a", "text": "Feuerbeständig" },
+      { "label": "b", "text": "Feuerhemmend" },
+      { "label": "c", "text": "Nicht brennbar" },
+      { "label": "d", "text": "Schwer entflammbar" }
+    ],
+    "correctAnswers": ["b"]
+  },
+  {
+    "id": 35,
+    "questionText": "Welche der aufgeführten Tätigkeiten gehören zu den lebensrettenden Sofortmaßnahmen?",
+    "options": [
+      { "label": "a", "text": "Verkehrssicherung, Verkehrsregelung" },
+      { "label": "b", "text": "Knochenbrüche schienen" },
+      { "label": "c", "text": "Wiederbelebung, Atemspende" },
+      { "label": "d", "text": "Lagerung und Schockbekämpfung" },
+      { "label": "e", "text": "Anschrift und Name des Verletzten notieren" }
+    ],
+    "correctAnswers": ["c", "d"]
+  },
+  {
+    "id": 36,
+    "questionText": "Welche Maßnahmen müssen eventuell durchgeführt werden, um die Vitalfunktionen einer verletzten Person aufrechtzuerhalten und/oder wieder herzustellen?",
+    "options": [
+      { "label": "a", "text": "Blutstillung" },
+      { "label": "b", "text": "Warmes Getränk verabreichen" },
+      { "label": "c", "text": "Injektion vorbereiten" },
+      { "label": "d", "text": "Lagerung" },
+      { "label": "e", "text": "Wärmeerhaltung" },
+      { "label": "f", "text": "Überwachung von Puls und Blutdruck" },
+      { "label": "g", "text": "Überwachung von Atmung und Bewusstseinslage" },
+      { "label": "h", "text": "Notruf veranlassen" },
+      { "label": "i", "text": "Verletzten über Unfallhergang befragen" }
+    ],
+    "correctAnswers": ["a", "d", "e", "f", "g"]
+  },
+  {
+    "id": 37,
+    "questionText": "Welche Anzeigen deuten auf einen Schock hin?",
+    "options": [
+      { "label": "a", "text": "Durstgefühl" },
+      { "label": "b", "text": "Starke Kopfschmerzen" },
+      { "label": "c", "text": "Frieren, Zittern" },
+      { "label": "d", "text": "Blasse, kalte und feuchte Haut" },
+      { "label": "e", "text": "Starke Blutungen" },
+      { "label": "f", "text": "Auffallende Unruhe" },
+      { "label": "g", "text": "Schneller und schwächer werdender Puls" },
+      { "label": "h", "text": "Tiefer Schlaf" },
+      { "label": "i", "text": "Auffallende Heiterkeit" },
+      { "label": "j", "text": "Großes Mitteilungsbedürfnis" }
+    ],
+    "correctAnswers": ["c", "d", "e", "f", "g"]
+  },
+  {
+    "id": 38,
+    "questionText": "Welche Stelle auf der UTM-Karte wird durch die Koordinate 372378 bestimmt? (Bild mit UTM-Gitter und Punkten A und B)",
+    "options": [
+      { "label": "a", "text": "Stelle A" },
+      { "label": "b", "text": "Stelle B" }
+    ],
+    "correctAnswers": ["a"]
+  },
+  {
+    "id": 39,
+    "questionText": "Was ist beim Retten von hilflosen Personen aus Schächten zu beachten?",
+    "options": [
+      { "label": "a", "text": "Schacht mit Sauerstoff anreichern" },
+      { "label": "b", "text": "Retter mit Atemschutzgerät und Feuerwehrleine ausrüsten" },
+      { "label": "c", "text": "Person mit Feuerwehrleine oder Rettungsgurt sichern" }
+    ],
+    "correctAnswers": ["b", "c"]
+  },
+  {
+    "id": 40,
+    "questionText": "Warum gibt es Feuerwehr-Einsatzpläne?",
+    "options": [
+      { "label": "a", "text": "Damit sich der Bürgermeister über die Einsatzfähigkeit seiner Feuerwehr informieren kann" },
+      { "label": "b", "text": "Damit sich der Einsatzleiter bei der Anfahrt über eventuelle Gefahren und das mögliche Vorgehen informieren kann" },
+      { "label": "c", "text": "Damit der Kreisbrandmeister die Einsatzleitung übernehmen kann" }
+    ],
+    "correctAnswers": ["b"]
+  },
+  {
+    "id": 41,
+    "questionText": "Kreuzen Sie die drei Tätigkeiten an, die der nach einem Alarm zuerst am Feuerwehrhaus eintreffende Feuerwehrangehörige vorrangig zu erledigen hat!",
+    "options": [
+      { "label": "a", "text": "Fahrzeugmotor warm laufen lassen" },
+      { "label": "b", "text": "Seine Ausrüstung holen und überprüfen" },
+      { "label": "c", "text": "Mit der Leitstelle Verbindung aufnehmen" },
+      { "label": "d", "text": "Kreisbrandmeister verständigen" },
+      { "label": "e", "text": "Einsatzauftrag von der Leitstelle erfragen" },
+      { "label": "f", "text": "Einsatzauftrag der Leitstelle wiederholen und eventuell aufschreiben" }
+    ],
+    "correctAnswers": ["c", "e", "f"]
+  },
+  {
+    "id": 42,
+    "questionText": "Wie fordern Sie als Gruppenführer in der Regel die Unterstützung anderer Feuerwehren oder Dienststellen bei einem Einsatz an?",
+    "options": [
+      { "label": "a", "text": "Direkt über Telefon" },
+      { "label": "b", "text": "Nur über die Leistelle" },
+      { "label": "c", "text": "Direkt über Funk" }
+    ],
+    "correctAnswers": ["b"]
+  },
+  {
+    "id": 43,
+    "questionText": "Welche Begriffe muss ein Befehl enthalten?",
+    "options": [
+      { "label": "a", "text": "Einheit" },
+      { "label": "b", "text": "Lage" },
+      { "label": "c", "text": "Hydranten" },
+      { "label": "d", "text": "Auftrag" },
+      { "label": "e", "text": "Ort, Zeit, Wetter" },
+      { "label": "f", "text": "Mittel" },
+      { "label": "g", "text": "Ziel" },
+      { "label": "h", "text": "Weg" },
+      { "label": "i", "text": "Schadenstelle" }
+    ],
+    "correctAnswers": ["a", "d", "f", "g", "h"]
+  },
+  {
+    "id": 44,
+    "questionText": "Wer entscheidet an der Einsatzstelle vorrangig über medizinische Maßnahmen am Verletzten?",
+    "options": [
+      { "label": "a", "text": "Technischer Einsatzleiter" },
+      { "label": "b", "text": "Bürgermeister" },
+      { "label": "c", "text": "Betriebsleiter beziehungsweise Werksdirektor" },
+      { "label": "d", "text": "Notarzt" },
+      { "label": "e", "text": "Kommandant" },
+      { "label": "f", "text": "Sicherheitsbeauftragte" }
+    ],
+    "correctAnswers": ["d"]
+  },
+  {
+    "id": 45,
+    "questionText": "Welche nachfolgenden Grundsätze sind im Sprechfunkverkehr zu beachten?",
+    "options": [
+      { "label": "a", "text": "Höflichkeitsformeln unterlassen" },
+      { "label": "b", "text": "Personennamen und Amtsbezeichnungen dürfen nicht genannt werden" },
+      { "label": "c", "text": "Teilnehmer mit „Sie“ anreden" },
+      { "label": "d", "text": "Strenge Funkdisziplin einhalten" },
+      { "label": "e", "text": "Abkürzungen benutzen, damit Funkzeit kurz ist" },
+      { "label": "f", "text": "Eigennamen und schwer verständliche Worte buchstabieren" },
+      { "label": "g", "text": "Zahlen unverwechselbar aussprechen" },
+      { "label": "h", "text": "Deutlich und laut sprechen ohne Pausen" }
+    ],
+    "correctAnswers": ["a", "c", "d", "f", "g"]
+  },
+  {
+    "id": 46,
+    "questionText": "Verkehrsarten sind von den technischen Möglichkeiten der Funkgeräte abhängige Verfahren des Nachrichtenaustausches im Sprechfunkverkehr. Wie werden sie unterschieden?",
+    "options": [
+      { "label": "a", "text": "Wechselverkehr" },
+      { "label": "b", "text": "Richtungsverkehr" },
+      { "label": "c", "text": "Kreisverkehr" },
+      { "label": "d", "text": "Sternverkehr" },
+      { "label": "e", "text": "Gegenverkehr" },
+      { "label": "f", "text": "Bedingter Gegenverkehr" },
+      { "label": "g", "text": "Linienverkehr" }
+    ],
+    "correctAnswers": ["a", "b", "e", "f"]
+  },
+  {
+    "id": 47,
+    "questionText": "Welche Aussage ist richtig?",
+    "options": [
+      { "label": "a", "text": "Einfach-Nachrichten\" werden in der Reihenfolge ihres Eingangs abgefertigt" },
+      { "label": "b", "text": "Sofort-Nachrichten\" müssen in der Reihenfolge ihres Eingangs jedoch vor Einfach-Nachrichten\" abgefertigt werden" },
+      { "label": "c", "text": "Gespräche sollen stichwortartig vorgefertigt sein und von der Gegenstelle niedergeschrieben beziehungsweise aufgezeichnet werden" },
+      { "label": "d", "text": "Das Gespräch\" ist ein formloser, unmittelbarer Informationsaustausch" },
+      { "label": "e", "text": "Der Spruch\" ist eine formgebundene, schriftlich festgelegte Nachricht" }
+    ],
+    "correctAnswers": ["a", "b", "d", "e"]
+  },
+  {
+    "id": 48,
+    "questionText": "Eine orangenfarbige Warntafel zeigt die Gefahrnummer 856. Was liegt vor?",
+    "options": [
+      { "label": "a", "text": "Ätzender Stoff, brandfördernd und giftig" },
+      { "label": "b", "text": "Giftiger Stoff, brandfördernd und ätzend" },
+      { "label": "c", "text": "Oxidierend wirkender Stoff, giftig und ätzend" }
+    ],
+    "correctAnswers": ["a"]
+  },
+  {
+    "id": 49,
+    "questionText": "Eine orangenfarbige Warntafel zeigt die Gefahrnummer X 423. Was liegt vor?",
+    "options": [
+      { "label": "a", "text": "Entzündbarer fester Stoff, der mit Wasser gefährlich reagiert, wobei brennbare Gase entweichen" },
+      { "label": "b", "text": "Leicht entzündbare Flüssigkeit, mit Wasser gefährlich reagierend, dabei entweicht Gas" },
+      { "label": "c", "text": "Fester Stoff, leicht entzündbar, bei Berührung mit Wasser entweicht Gas" }
+    ],
+    "correctAnswers": ["a"]
+  },
+  {
+    "id": 50,
+    "questionText": "Im Hommel\" sehen Sie für einen Stoff im Gefahrendiamant im blauen Feld eine „3“. Was bedeutet dies?",
+    "options": [
+      { "label": "a", "text": "Starke Reaktionsgefahr" },
+      { "label": "b", "text": "Vollschutzanzug erforderlich" },
+      { "label": "c", "text": "Sicherheitszone von mindestens 30 Meter bilden" },
+      { "label": "d", "text": "Stoff ist schwer entflammbar\"" },
+      { "label": "e", "text": "Gesundheitsgefahr" }
+    ],
+    "correctAnswers": ["b", "e"]
+  },
+  {
+    "id": 51,
+    "questionText": "Eine Gaswolke (ätzende Gase) bildet sich im Freien aufgrund eines Lecks. Was tun Sie zuerst um die Bevölkerung zu schützen?",
+    "options": [
+      { "label": "a", "text": "Räumung der unmittelbar beaufschlagten Gebäude" },
+      { "label": "b", "text": "Leck abdichten, damit nichts mehr austritt" },
+      { "label": "c", "text": "Gaswolke mit Wasser eingrenzen beziehungsweise niederschlagen" }
+    ],
+    "correctAnswers": ["c"]
+  },
+  {
+    "id": 52,
+    "questionText": "Meldung Verkehrsunfall! Sie kommen mit einem Löschgruppenfahrzeug LF 10 und Ihrer Löschgruppe an die Einsatzstelle. Ihre Erkundung hat ergeben, dass keine Person im unmittelbaren Bereich gefährdet ist. Auf einem kleinen Lastkraftwagen (drei Tonnen) liegen zerstörte Behälter (60 Liter). Die Kennzeichnung der Behälter nach Gefahrstoff-Verordnung (GefStoffV) ist ätzend. Welche Maßnahmen veranlassen Sie?",
+    "options": [
+      { "label": "a", "text": "Einsatzstelle großräumig (50 Meter) absichern" },
+      { "label": "b", "text": "Gase mit Sprühstrahl unter Atemschutz niederschlagen" },
+      { "label": "c", "text": "Lagemeldung abgeben und Gerätewagen Gefahrgut anfordern, Kreisbrandmeister verständigen" },
+      { "label": "d", "text": "Lagemeldung abgeben und Rüstwagen anfordern, Transportfirma verständigen und Ersatzfahrzeug anfordern" },
+      { "label": "e", "text": "Ausgelaufene Flüssigkeit mit viel Wasser (Verdünnungseffekt) ins Kanalrohr spülen" }
+    ],
+    "correctAnswers": ["a", "b", "c"]
+  },
+  {
+    "id": 53,
+    "questionText": "Welches Gefährlichkeitsmerkmal kann einem Stoff zugeordnet werden?",
+    "options": [
+      { "label": "a", "text": "Sehr giftig" },
+      { "label": "b", "text": "Ekelhaft riechend / spontan reagierend" },
+      { "label": "c", "text": "Brandfördernd" },
+      { "label": "d", "text": "Krebserzeugend" },
+      { "label": "e", "text": "Explosionsgefährlich" }
+    ],
+    "correctAnswers": ["a", "c", "d", "e"]
+  },
+  {
+    "id": 54,
+    "questionText": "Woran erkennt man, ob ein unbekannter Stoff giftig ist?",
+    "options": [
+      { "label": "a", "text": "Die Giftigkeit ist nicht ohne weiteres erkennbar" },
+      { "label": "b", "text": "Durch den Einsatz von Prüfröhrchen" },
+      { "label": "c", "text": "Mit Indikator-Papier (pH-Papier)" }
+    ],
+    "correctAnswers": ["a"]
+  },
+  {
+    "id": 55,
+    "questionText": "Die Dekontamination durch die Feuerwehr (Dekon) ist die Grobreinigung von Einsatzkräften einschließlich ihrer Schutzkleidung, von anderen Personen sowie von Geräten. Welche Aussage ist richtig?",
+    "options": [
+      { "label": "a", "text": "Der Dekon-Platz muss in spätestens 15 Minuten betriebsbereit sein" },
+      { "label": "b", "text": "Dekon-Stufe I = Notdekontamination von Personen" },
+      { "label": "c", "text": "Dekon-Stufe II = Standard-Dekontamination" },
+      { "label": "d", "text": "Dekon-Stufe III = Erweiterte Dekontamination im ABC-Einsatz" },
+      { "label": "e", "text": "Ein Dekon-Platz ist bei jedem ABC-Einsatz der Gefahrengruppe II und III einzurichten und abzugrenzen" }
+    ],
+    "correctAnswers": ["a", "b", "c", "d", "e"]
+  },
+  {
+    "id": 56,
+    "questionText": "Was bedeutet die Abkürzung „TRGS“?",
+    "options": [
+      { "label": "a", "text": "Technische Regeln für Gefahrstoffe" },
+      { "label": "b", "text": "Transport-Richtlinie für Gerätewagen-Säure" },
+      { "label": "c", "text": "Technisches Regelwerk für Gase und Säuren" }
+    ],
+    "correctAnswers": ["a"]
+  },
+  {
+    "id": 57,
+    "questionText": "Welche Aussage für Erdgas ist richtig?",
+    "options": [
+      { "label": "a", "text": "Erdgas ist leichter als Luft" },
+      { "label": "b", "text": "Erdgas ist gut riechbar" },
+      { "label": "c", "text": "Erdgas ist eingeatmet ein Blutgift" }
+    ],
+    "correctAnswers": ["a"]
+  },
+  {
+    "id": 58,
+    "questionText": "Welche grundsätzlichen Schutzmaßnahmen sind beim Einsatz mit radioaktiven Stoffen zu beachten?",
+    "options": [
+      { "label": "a", "text": "Abstand halten (groß)" },
+      { "label": "b", "text": "Aufenthaltsdauer kurz" },
+      { "label": "c", "text": "Abschirmung ausnutzen" },
+      { "label": "d", "text": "Kontamination vermeiden" },
+      { "label": "e", "text": "Inkorporation vermeiden" },
+      { "label": "f", "text": "Radioaktiven Stoff mit viel Wasser kühlen" },
+      { "label": "g", "text": "Radioaktiven Stoff aufnehmen" }
+    ],
+    "correctAnswers": ["a", "b", "c", "d", "e"]
+  },
+  {
+    "id": 59,
+    "questionText": "Welcher Abstand ist bis zur Festlegung der Absperrgrenze für nicht unmittelbar am Einsatz beteiligte Einsatzkräfte bei Unfällen mit radioaktiven Stoffen vom Schadensobjekt einzuhalten?",
+    "options": [
+      { "label": "a", "text": "10 Meter" },
+      { "label": "b", "text": "25 Meter" },
+      { "label": "c", "text": "50 Meter" }
+    ],
+    "correctAnswers": ["c"]
+  },
+  {
+    "id": 60,
+    "questionText": "Bereiche mit ABC-Gefahrstoffen werden bei der Einsatzvorbereitung entsprechend den auszuführenden Maßnahmen in drei Gefahrengruppen eingeteilt. Welche Zuordnung ist richtig?",
+    "options": [
+      { "label": "a", "text": "Gefahrengruppe I - Bereiche, in denen die Einsatzkräfte nur mit Sonderausrüstung und unter besonderer Überwachung und Dekontamination/Hygiene tätig werden dürfen" },
+      { "label": "b", "text": "Gefahrengruppe II - Bereiche, in denen die Einsatzkräfte ohne Sonderausrüstung tätig werden dürfen. Zur Vermeidung einer Inkorporation soll jedoch Atemschutz getragen werden" },
+      { "label": "c", "text": "Gefahrengruppe III - Bereiche, in denen Einsatzkräfte nur mit Sonderausrüstung und unter besonderer Überwachung und Dekontamination/Hygiene tätig werden dürfen und deren Eigenart die Anwesenheit einer fachkundigen Person notwendig macht, die während des Einsatzes die entstehende Gefährdung und die anzuwendenden Schutzmaßnahmen beurteilen kann" }
+    ],
+    "correctAnswers": ["c"]
+  }
+]
