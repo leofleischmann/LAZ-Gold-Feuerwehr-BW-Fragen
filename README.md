@@ -11,7 +11,7 @@ Quelle: https://www.lfs-bw.de/fileadmin/LFS-BW/themen/wettbewerb/dokumente/UEbun
 
 # Entscheidungsbaum-Analyse der Fragen
 
-Dieser Entscheidungsbaum ist das Ergebnis eines Experiments, bei dem eine Strategie entwickelt wurde, um die 90 Testfragen basierend auf dem Datensatz für `Mannschaft.json`) optimal zu beantworten.
+Dieser Entscheidungsbaum ist das Ergebnis eines Experiments, bei dem eine Strategie entwickelt wurde, um die 90 Testfragen basierend auf dem Datensatz für `Mannschaft.json`) optimal zu beantworten. (Herunterladen um ran zu zoomen)
 
 **Erfolgsaussicht mit diesem Baum:**
 Wenn man die Entscheidungslogik dieses spezifischen, maximal komplexen Baumes auf die bekannten 90 Fragen anwendet, ergibt eine Simulation (10.000 Durchläufe) für eine zufällig zusammengestellte Prüfung aus 30 Fragen eine **geschätzte Bestehenswahrscheinlichkeit von 100 %** (basierend auf dem Erreichen von mindestens 75 % der Gesamtpunkte in der simulierten Prüfung).
