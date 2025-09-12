@@ -1,5 +1,6 @@
 Die App nutzt die Google Cloud Firestore Datenbank zur Datenspeicherung.
-Wenn ein Account angelegt wird werden folgende Infos auf der Datenbank gespeichert:
+Einsicht und Zugriff auf/in die Datenbank durch 3. wird durch ein Login mit Firebase Auth verhindert.
+Wenn ein Account angelegt wird werden folgende Informationen für diesen Login in Firebase Auth gespeichert:
 
 - Zufällige Nutzer ID
 
