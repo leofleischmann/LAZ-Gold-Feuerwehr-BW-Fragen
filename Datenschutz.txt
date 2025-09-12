@@ -35,7 +35,7 @@ https://github.com/leofleischmann/LAZ-Gold-Feuerwehr-BW-Fragen/blob/a286d9f7df76
 
 Fazit: So lange man nichts hochlädt und keiner Gruppe beitritt wird nichts gespeichert außer eine zufällige Nutzer ID.
 
-
+Bei Fragen: leo.fleischmann04@gmail.com
 
 
 <h1>Datenschutzerklärung</h1>
