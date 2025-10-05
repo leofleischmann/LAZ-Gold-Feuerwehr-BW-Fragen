@@ -1,42 +1,55 @@
-Die App nutzt die Google Cloud Firestore Datenbank zur Datenspeicherung.
-Einsicht und Zugriff auf/in die Datenbank durch 3. wird durch ein Login mit Firebase Auth verhindert.
-Wenn ein Account angelegt wird werden folgende Informationen für diesen Login in Firebase Auth gespeichert:
+---
+## Datenspeicherung und Datenschutz
 
-- Zufällige Nutzer ID
+Die App verwendet die **Google Cloud Firestore** Datenbank zur Speicherung von Daten. Der Zugriff durch Dritte wird durch ein Login mit **Firebase Auth** verhindert.
 
-Sofern nichts hochgeladen wird (nicht im öffentlichen Leaderboard oder in der Wettkampfgruppe) wird nur eine unidentifizierbare zufällige Nutzernummer angelegt, mit welcher der Login vorgang stattfindet.
+Wenn ein Account erstellt wird, speichert Firebase Auth lediglich eine **zufällige Nutzer-ID** für den Login-Vorgang. Solange keine Statistiken hochgeladen oder einer Wettkampfgruppe beigetreten wird, bleiben keine weiteren persönlichen Daten gespeichert.
 
-Wenn man seine Statistiken ins öffentliche Leaderboard hochlädt wird folgendes gespeichert:
-- Zufällige Nutzer ID
-- Name
-- Rolle
-- Feuerwehr
-- Anzahl Prüfungen
-- Durchschnittliche Bewertung
-- Hochgeladen Zeitstempel
-- WeightedScore (Berechnet aus Anzahl prüfungen und Durchschnittlicher Bewertung)
+### Öffentliches Leaderboard
 
-https://github.com/leofleischmann/LAZ-Gold-Feuerwehr-BW-Fragen/blob/a286d9f7df765fb7736a13d661a9427cd129db42/Gespeicherte%20Daten/Leaderboard.png
+Wenn Sie Ihre Statistiken in das öffentliche Leaderboard hochladen, werden folgende Informationen gespeichert:
 
-Wenn man eine Wettkampfgruppe erstellt oder einer Wettkampfgruppe per Code beitritt wird eine zufällige Gruppen ID erstellt. Zu dieser zufälligen Gruppen ID wird man mit seiner zufälligen Nutzer ID zugeteilt.
-https://github.com/leofleischmann/LAZ-Gold-Feuerwehr-BW-Fragen/blob/a286d9f7df765fb7736a13d661a9427cd129db42/Gespeicherte%20Daten/Gruppe.png
+* **Zufällige Nutzer-ID**
+* **Name**
+* **Rolle**
+* **Feuerwehr**
+* **Anzahl der Prüfungen**
+* **Durchschnittliche Bewertung**
+* **Zeitstempel des Uploads**
+* **WeightedScore** (berechnet aus Anzahl der Prüfungen und durchschnittlicher Bewertung)
 
-Außerdem wird man als Mittglied der Gruppe gespeichert mit:
-- Zufällige Nutzer ID
-- Name
-- Rolle
-- Feuerwehr
-- Anzahl Prüfungen
-- Durchschnittliche Bewertung
-- WeightedScore (Berechnet aus Anzahl prüfungen und Durchschnittlicher Bewertung)
-- Hochgeladen Zeitstempel
-Sofern man seine Statistiken nicht in der Wettkampfgruppe durch "Hochladen" teilt, bleibt anzahl Prüfungen und durchschnittliche Wertung immer 0 und der Zeitstempel leer. Sollte man sich entscheiden seinen Vortschritt in der Wettkampfgruppe zu teilen, wird das ergänzt.
-https://github.com/leofleischmann/LAZ-Gold-Feuerwehr-BW-Fragen/blob/a286d9f7df765fb7736a13d661a9427cd129db42/Gespeicherte%20Daten/Gruppe%20Members.png
+![Leaderboard Datenstruktur](https://github.com/leofleischmann/LAZ-Gold-Feuerwehr-BW-Fragen/blob/a286d9f7df765fb7736a13d661a9427cd129db42/Gespeicherte%20Daten/Leaderboard.png)
 
-Fazit: So lange man nichts hochlädt und keiner Gruppe beitritt wird nichts gespeichert außer eine zufällige Nutzer ID.
+---
 
-Bei Fragen: leo.fleischmann04@gmail.com
+### Wettkampfgruppen
 
+Wenn Sie eine Wettkampfgruppe erstellen oder beitreten, wird eine zufällige **Gruppen-ID** erstellt. Ihrer zufälligen Nutzer-ID wird diese Gruppen-ID zugeordnet.
+
+![Gruppen Datenstruktur](https://github.com/leofleischmann/LAZ-Gold-Feuerwehr-BW-Fragen/blob/a286d9f7df765fb7736a13d661a9427cd129db42/Gespeicherte%20Daten/Gruppe.png)
+
+Als Mitglied der Gruppe werden folgende Informationen gespeichert:
+
+* **Zufällige Nutzer-ID**
+* **Name**
+* **Rolle**
+* **Feuerwehr**
+* **Anzahl der Prüfungen**
+* **Durchschnittliche Bewertung**
+* **WeightedScore** (berechnet aus Anzahl der Prüfungen und durchschnittlicher Bewertung)
+* **Zeitstempel des Uploads**
+
+Sofern Sie Ihre Statistiken in der Gruppe nicht durch einen separaten "Hochladen"-Vorgang teilen, bleiben die Felder **Anzahl der Prüfungen** und **Durchschnittliche Bewertung** auf 0 und der Zeitstempel leer.
+
+![Gruppenmitglieder Datenstruktur](https://github.com/leofleischmann/LAZ-Gold-Feuerwehr-BW-Fragen/blob/a286d9f7df765fb7736a13d661a9427cd129db42/Gespeicherte%20Daten/Gruppe%20Members.png)
+
+---
+
+### Fazit
+
+Solange Sie keine Daten hochladen und keiner Gruppe beitreten, wird außer der zufälligen Nutzer-ID nichts über Sie gespeichert.
+
+Bei Fragen wenden Sie sich bitte an: leo.fleischmann04@gmail.com
 
 <h1>Datenschutzerklärung</h1>
 <h2 id="m4158">Präambel</h2>
