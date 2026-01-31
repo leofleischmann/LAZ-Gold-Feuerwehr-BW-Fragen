@@ -1,15 +1,18 @@
 # 🔥 Feuerwehr-Leistungsabzeichen Gold Baden-Württemberg - Fragen-App
 
-[![App on Google Play](https://play.google.com/store/apps/details?id=com.lazgold.leofleischmann.laz_gold_bw&pcampaignid=web_share)
-[![Web App](https://img.shields.io/badge/Web_App-LAZ.leofle.com-blue?style=for-the-badge)](https://laz.leofle.com)
+[![Get it on Google Play](https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.lazgold.leofleischmann.laz_gold_bw)
+
+[![Web App](https://img.shields.io/badge/Web_App-LAZ%2Eleofle%2Ecom-blue?style=for-the-badge&logo=google-chrome)](https://laz.leofle.com)
+
 
 ---
 
 ### 📖 Über das Projekt
 
-Dieses Repository enthält den Quellcode für eine App, die zum Üben der Fragen für das Feuerwehr-Leistungsabzeichen Gold in Baden-Württemberg entwickelt wurde. Die App ist in Flutter geschrieben, um eine plattformübergreifende Nutzung zu gewährleisten.
+Dieses Repository enthält den früheren Quellcode für eine App, die zum Üben der Fragen für das Feuerwehr-Leistungsabzeichen Gold in Baden-Württemberg entwickelt wurde. Die App ist in Flutter geschrieben, um eine plattformübergreifende Nutzung zu gewährleisten.
+Die aktuelle App ist wesentlich komplexer und bietet auch online Funktionalitäten an. Der Quellcode für die aktuellste Version ist nicht öffentlich.
 
-Das Projekt wurde ins Leben gerufen, um Feuerwehrleuten eine moderne und effiziente Möglichkeit zu bieten, sich gezielt auf die theoretische Prüfung vorzubereiten. Es umfasst alle offiziellen Fragen des Landesfeuerwehrverbandes Baden-Württemberg (Stand 2017).
+Das Projekt wurde ins Leben gerufen, um Feuerwehrleuten eine moderne und effiziente Möglichkeit zu bieten, sich gezielt auf die theoretische Prüfung vorzubereiten. Es umfasst alle offiziellen Fragen des Landesfeuerwehrverbandes Baden-Württemberg.
 
 **Fragenkatalog-Quelle:**
 Offizieller Übungsfragenkatalog des Landesfeuerwehrverbands Baden-Württemberg für das Leistungsabzeichen Gold: [lfs-bw.de/fileadmin/LFS-BW/themen/wettbewerb/dokumente/UEbungsfragen_Leistungsabzeichen_Gold_2017.pdf](https://www.lfs-bw.de/fileadmin/LFS-BW/themen/wettbewerb/dokumente/UEbungsfragen_Leistungsabzeichen_Gold_2017.pdf)
@@ -45,7 +48,5 @@ Die Grafik veranschaulicht, wie der gewichtete Score auf Basis der Prüfungsanza
 | 4 | Person D | 10 | 97.00% | 96.09 |
 | 5 | Person E | 5 | 98.00% | 90.99 |
 | 6 | Person F | 1 | 100.00% | 70.84 |
-
----
 
 ---
