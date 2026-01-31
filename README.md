@@ -1,6 +1,6 @@
 # 🔥 Feuerwehr-Leistungsabzeichen Gold Baden-Württemberg - Fragen-App
 
-[![App on Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.leofle.laz_gold_feuerwehr_bw_fragen)
+[![App on Google Play](https://play.google.com/store/apps/details?id=com.lazgold.leofleischmann.laz_gold_bw&pcampaignid=web_share)
 [![Web App](https://img.shields.io/badge/Web_App-LAZ.leofle.com-blue?style=for-the-badge)](https://laz.leofle.com)
 
 ---
