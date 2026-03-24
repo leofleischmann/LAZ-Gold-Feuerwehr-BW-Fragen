@@ -1,13 +1,13 @@
 ---
 ## Datenspeicherung und Datenschutz
 
-Die App verwendet die **Google Cloud Firestore** Datenbank zur Speicherung von Daten. Der Zugriff durch Dritte wird durch ein Login mit **Firebase Auth** verhindert.
+Die App verwendet zur Speicherung von Daten primär **Supabase** (PostgreSQL + Supabase Auth). Der Zugriff auf sensible Daten wird durch **Row Level Security (RLS)** und authentifizierte Sitzungen geschützt.
 
-Wenn ein Account erstellt wird, speichert Firebase Auth lediglich eine **zufällige Nutzer-ID** für den Login-Vorgang. Solange keine Statistiken hochgeladen oder einer Wettkampfgruppe beigetreten wird, bleiben keine weiteren persönlichen Daten gespeichert.
+Beim Start wird eine zufällige (anonyme) Nutzer-ID erstellt, sofern noch keine Sitzung vorhanden ist. Solange keine Statistiken hochgeladen oder einer Wettkampfgruppe beigetreten wird, werden keine zusätzlichen Profildaten veröffentlicht.
 
 ### Öffentliches Leaderboard
 
-Wenn Sie Ihre Statistiken in das öffentliche Leaderboard hochladen, werden folgende Informationen gespeichert:
+Wenn Sie Ihre Statistiken in das öffentliche Leaderboard hochladen, werden folgende Informationen in der Servertabelle `leaderboard_entries` gespeichert:
 
 * **Zufällige Nutzer-ID**
 * **Name**
@@ -18,17 +18,21 @@ Wenn Sie Ihre Statistiken in das öffentliche Leaderboard hochladen, werden folg
 * **Zeitstempel des Uploads**
 * **WeightedScore** (berechnet aus Anzahl der Prüfungen und durchschnittlicher Bewertung)
 
-![Leaderboard Datenstruktur](https://github.com/leofleischmann/LAZ-Gold-Feuerwehr-BW-Fragen/blob/a286d9f7df765fb7736a13d661a9427cd129db42/Gespeicherte%20Daten/Leaderboard.png)
+---
+
+### Profil und Inaktivität ("Zuletzt online")
+
+Wenn Sie ein Profil in der App anlegen (Name, Feuerwehr, Rolle), wird dieses in der Tabelle `profiles` gespeichert.
+Zusätzlich erfassen wir bei App-Nutzung den Zeitpunkt der letzten Aktivität (`last_active_at`).
+Dies dient unserem berechtigten Interesse (Art. 6 Abs. 1 lit. f DSGVO) zur Verwaltung und Anzeige von aktiven Nutzergruppen sowie der gesetzlich geforderten Datenminimierung (Löschen inaktiver Accounts).
 
 ---
 
 ### Wettkampfgruppen
 
-Wenn Sie eine Wettkampfgruppe erstellen oder beitreten, wird eine zufällige **Gruppen-ID** erstellt. Ihrer zufälligen Nutzer-ID wird diese Gruppen-ID zugeordnet.
+Wenn Sie eine Wettkampfgruppe erstellen oder beitreten, wird eine zufällige **Gruppen-ID** in der Tabelle `competition_groups` erstellt. Der Nutzer-ID wird diese Gruppen-ID zugeordnet.
 
-![Gruppen Datenstruktur](https://github.com/leofleischmann/LAZ-Gold-Feuerwehr-BW-Fragen/blob/a286d9f7df765fb7736a13d661a9427cd129db42/Gespeicherte%20Daten/Gruppe.png)
-
-Als Mitglied der Gruppe werden folgende Informationen gespeichert:
+Als Mitglied der Gruppe werden folgende Informationen in `competition_group_members` gespeichert:
 
 * **Zufällige Nutzer-ID**
 * **Name**
@@ -36,18 +40,52 @@ Als Mitglied der Gruppe werden folgende Informationen gespeichert:
 * **Feuerwehr**
 * **Anzahl der Prüfungen**
 * **Durchschnittliche Bewertung**
-* **WeightedScore** (berechnet aus Anzahl der Prüfungen und durchschnittlicher Bewertung)
+* **WeightedScore**
 * **Zeitstempel des Uploads**
 
 Sofern Sie Ihre Statistiken in der Gruppe nicht durch einen separaten "Hochladen"-Vorgang teilen, bleiben die Felder **Anzahl der Prüfungen** und **Durchschnittliche Bewertung** auf 0 und der Zeitstempel leer.
 
-![Gruppenmitglieder Datenstruktur](https://github.com/leofleischmann/LAZ-Gold-Feuerwehr-BW-Fragen/blob/a286d9f7df765fb7736a13d661a9427cd129db42/Gespeicherte%20Daten/Gruppe%20Members.png)
+---
+
+### Praxis-Feedback
+
+Wenn Sie Feedback zu einem spezifischen Schritt im Praxisteil geben, werden folgende Informationen in der Tabelle `practical_feedback` gespeichert:
+
+* **Zufällige Nutzer-ID** (erstellt durch Supabase Auth)
+* **Übungstyp** (z.B. Löscheinsatz, THL)
+* **Rolle** (z.B. Angriffstrupp)
+* **Schritt-Index und Titel**
+* **Eingegebener Feedback-Text**
+* **Zeitstempel des Uploads**
+
+---
+
+### App-Bewertungen (Feedback)
+
+Wenn Sie in der App eine Bewertung oder Verbesserungsvorschläge abgeben, werden folgende Informationen in der Tabelle `app_ratings` gespeichert:
+
+* **Zufällige Nutzer-ID**
+* **Sterne-Bewertung**
+* **Feedback-Text**
+* **Zeitstempel**
+
+---
+
+### Gruppen-Bestenlisten
+
+Für das Gruppen-Ranking werden in der Tabelle `group_leaderboard_entries` die kumulierten Statistiken der Wettkampfgruppe gespeichert (z.B. durchschnittliche Bewertung der gesamten Gruppe). Hierbei wird in der Spalte `uploaded_by` die **Zufällige Nutzer-ID** der Person festgehalten, die den Upload für die Gruppe initiiert hat.
+
+(Zusätzlich existiert eine rein technische Tabelle `app_version`, die jedoch keinerlei personenbezogene Daten verarbeitet.)
 
 ---
 
 ### Fazit
 
-Solange Sie keine Daten hochladen und keiner Gruppe beitreten, wird außer der zufälligen Nutzer-ID nichts über Sie gespeichert.
+Solange Sie keine Daten hochladen und keiner Gruppe beitreten, wird außer der zufälligen Nutzer-ID, dem selbst ausgesuchten Namen und der Feuerwehr sowie der Rolle und dem Zeitstempel des letzten App-Aufrufs nichts über Sie in den Datenbank-Tabellen gespeichert.
+
+### Hinweis zur Übergangsphase (Firebase -> Supabase)
+
+Für Bestandsnutzer kann beim ersten Start nach dem Update einmalig eine Zuordnung zwischen alter Firebase-ID und neuer Supabase-ID (`firebase_uid_map`) durchgeführt werden, damit vorhandene Daten korrekt übernommen werden. Diese Zuordnung ist für Clients nicht direkt les- oder schreibbar und wird serverseitig abgesichert verarbeitet.
 
 Bei Fragen wenden Sie sich bitte an: leo.fleischmann04@gmail.com
 
