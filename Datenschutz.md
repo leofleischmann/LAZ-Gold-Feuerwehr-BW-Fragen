@@ -3,7 +3,15 @@
 
 Die App verwendet zur Speicherung von Daten primär **Supabase** (PostgreSQL + Supabase Auth). Der Zugriff auf sensible Daten wird durch **Row Level Security (RLS)** und authentifizierte Sitzungen geschützt.
 
-Beim Start wird eine zufällige (anonyme) Nutzer-ID erstellt, sofern noch keine Sitzung vorhanden ist. Solange keine Statistiken hochgeladen oder einer Wettkampfgruppe beigetreten wird, werden keine zusätzlichen Profildaten veröffentlicht.
+Beim Start wird eine zufällige (anonyme) Nutzer-ID erstellt, sofern noch keine Sitzung vorhanden ist.
+
+### Profil und Zuletzt online
+
+Wenn Sie ein Profil in der App anlegen (Name, Feuerwehr, Rolle), wird dieses in der Tabelle `profiles` gespeichert.
+Zusätzlich erfassen wir bei App-Nutzung den Zeitpunkt des letzten öffnens der App (`last_active_at`).
+Dies dient unserem berechtigten Interesse (Art. 6 Abs. 1 lit. f DSGVO) zur Verwaltung und Anzeige von aktiven Nutzergruppen sowie der gesetzlich geforderten Datenminimierung (automatisches Löschen inaktiver Accounts nach 2 Monaten).
+
+---
 
 ### Öffentliches Leaderboard
 
@@ -18,13 +26,8 @@ Wenn Sie Ihre Statistiken in das öffentliche Leaderboard hochladen, werden folg
 * **Zeitstempel des Uploads**
 * **WeightedScore** (berechnet aus Anzahl der Prüfungen und durchschnittlicher Bewertung)
 
----
-
-### Profil und Inaktivität ("Zuletzt online")
-
-Wenn Sie ein Profil in der App anlegen (Name, Feuerwehr, Rolle), wird dieses in der Tabelle `profiles` gespeichert.
-Zusätzlich erfassen wir bei App-Nutzung den Zeitpunkt der letzten Aktivität (`last_active_at`).
-Dies dient unserem berechtigten Interesse (Art. 6 Abs. 1 lit. f DSGVO) zur Verwaltung und Anzeige von aktiven Nutzergruppen sowie der gesetzlich geforderten Datenminimierung (Löschen inaktiver Accounts).
+Davon sind Name, Rolle, Feuerwehr, Anzahl der Prüfungen, Durchschnittliche Bewertung für jeden öffentlich einsehbar.
+Der WeightedScore wird für die positionierung auf dem Leaderboard verwendet.
 
 ---
 
@@ -75,7 +78,9 @@ Wenn Sie in der App eine Bewertung oder Verbesserungsvorschläge abgeben, werden
 
 Für das Gruppen-Ranking werden in der Tabelle `group_leaderboard_entries` die kumulierten Statistiken der Wettkampfgruppe gespeichert (z.B. durchschnittliche Bewertung der gesamten Gruppe). Hierbei wird in der Spalte `uploaded_by` die **Zufällige Nutzer-ID** der Person festgehalten, die den Upload für die Gruppe initiiert hat.
 
-(Zusätzlich existiert eine rein technische Tabelle `app_version`, die jedoch keinerlei personenbezogene Daten verarbeitet.)
+---
+
+(Zusätzlich existiert eine rein technische Tabelle `app_version`, die jedoch keinerlei personenbezogene Daten verarbeitet und nur dem Dialog dient, dass eine neue Version der App verfügbar ist.)
 
 ---
 
